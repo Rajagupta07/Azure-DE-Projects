@@ -1,0 +1,15 @@
+{
+	"name": "realTimeDataFactori",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "45dac855-8f16-453f-a813-9a3f144e68e0",
+		"tenantId": "2dc4e0c1-3e4d-44ca-979c-3332fc4e8130"
+	}
+}

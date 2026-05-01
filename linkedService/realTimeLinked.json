@@ -1,0 +1,11 @@
+{
+	"name": "realTimeLinked",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://realtimestorageaccnt.dfs.core.windows.net/"
+		}
+	}
+}

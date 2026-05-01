@@ -1,0 +1,29 @@
+{
+	"name": "BatchTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copyDataFromSourceToSinkBatch",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"fileName": "online_retail.csv",
+					"sourcePath": "landing/online-retail/",
+					"sinkPath": "bronze/batch/online_retail/"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2026-05-02T00:30:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

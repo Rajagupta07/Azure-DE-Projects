@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "realTimeDataFactori"
+		},
+		"LS_Sink_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_Source_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_Sink_ADLS_properties_typeProperties_url": {
+			"value": "https://realtimestorageaccnt.dfs.core.windows.net/"
+		},
+		"LS_Source_ADLS_properties_typeProperties_url": {
+			"value": "https://realtimestorageaccnt.dfs.core.windows.net/"
+		},
+		"BatchTrigger_properties_copyDataFromSourceToSinkBatch_parameters_fileName": {
+			"value": "online_retail.csv"
+		},
+		"BatchTrigger_properties_copyDataFromSourceToSinkBatch_parameters_sourcePath": {
+			"value": "landing/online-retail/"
+		},
+		"BatchTrigger_properties_copyDataFromSourceToSinkBatch_parameters_sinkPath": {
+			"value": "bronze/batch/online_retail/"
+		}
+	}
+}

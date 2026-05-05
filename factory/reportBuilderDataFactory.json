@@ -2,14 +2,14 @@
 	"name": "reportBuilderDataFactory",
 	"properties": {
 		"trustModeClaimForMi": {
-			"value": "Disabled",
+			"value": "Enabled",
 			"editable": true
 		}
 	},
-	"location": "southindia",
+	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "d23a2817-c5cc-43f4-bdaa-e20ef8fb307d",
+		"principalId": "b7b09595-9dc2-4e6b-8ff0-a98dd95ca424",
 		"tenantId": "2dc4e0c1-3e4d-44ca-979c-3332fc4e8130"
 	}
 }
